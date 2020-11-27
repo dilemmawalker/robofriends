@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Hello from './Hello.js';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+   {/* <h1>Hello world</h1>  */}
+  <Hello/>
   </React.StrictMode>,
   document.getElementById('root')
 );
