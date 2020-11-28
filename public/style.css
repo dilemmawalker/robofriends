@@ -1,0 +1,15 @@
+.yo{
+    background-color: rgb(104, 104, 238);
+    color:rgb(248, 244, 244);
+    length: 200px;
+    width: 200px;
+}
+#abc{
+    length: 200px;
+    width: 200px;
+    background-color: rgb(103, 103, 241);
+}
+/* h2{
+    background-color: blue;
+    color:red;
+} */

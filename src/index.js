@@ -7,8 +7,11 @@ import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Robots />;
-    
+    <div>
+    <h><Robots /></h>
+    <h><Robots /></h>
+    </div>
+      
   </React.StrictMode>,
   document.getElementById('root')
 );
