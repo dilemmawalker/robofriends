@@ -8,8 +8,9 @@ import 'tachyons';
 ReactDOM.render(
   <React.StrictMode>
     <div>
-    <h><Robots /></h>
-    <h><Robots /></h>
+    <h><Robots />
+       {/* <Robots /> */}
+      </h> 
     </div>
       
   </React.StrictMode>,
