@@ -4,11 +4,16 @@ import './index.css';
 import Robots from './Robots';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import Arr from './Arr';
+
+var n=Arr.length;
 
 ReactDOM.render(
   <React.StrictMode>
+    
     <div>
-    <h><Robots />
+    <h>
+      <Robots/>
        {/* <Robots /> */}
       </h> 
     </div>

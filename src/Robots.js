@@ -1,42 +1,42 @@
 import React from  'react';
 import Arr from './Arr';
 
+
 function Robots (){
-    return (
+< div class="abc" alt="combo" >
+</div>
 
-        <div>
-            < div class="abc" alt="combo" >
-                var n=Arr.length;
-                var i=0;
-                {/* for(i=0;i<n;i++){ */}
-                    
-                    < div class="yo" alt="combo" >
-            <img id="abc" alt ="photo" src="https://robohash.org/ugdhfdsdfu"/>
-            
-            {Arr[0].name};
-            {Arr[0].email};
+  const listItems = Arr.map((user,i) =>{
+      return(
+  <div>
+  
+          < div class="yo" alt="combo" >
+  <img id="ab" alt ="photo" src="https://robohash.org/ugdhfdsdfu"/>
 
+  {user.name}<br></br>
+  {Arr[i].email}
+    </div>
+  {/* < div class="yo" alt="combo" >
+  <img id="abc" alt ="photo" src="https://robohash.org/ugdhfdsdfu"/>
+  
+  lester freeman
+  lester@gmail.com
 
-            </div>
-             {/* }  */}
-                
-            {/* < div class="yo" alt="combo" >
-            <img id="abc" alt ="photo" src="https://robohash.org/ugdhfdsdfu"/>
-            
-            lester freeman
-            lester@gmail.com
-
-            </div>
-            < div class="yoo" alt="combo" >
-            <img id="bcd" alt ="photo" src="https://robohash.org/ugdhfdsdfu"/>
-            
-            lester freeman
-            lester@gmail.com
-            </div> */}
-            
-            </div>
-        </div>
-        
-    )
+  </div>
+  < div class="yoo" alt="combo" >
+  <img id="bcd" alt ="photo" src="https://robohash.org/ugdhfdsdfu"/>
+  
+  lester freeman
+  lester@gmail.com
+  </div> */}
+ 
+</div>
+      );
+  })
+  return (
+    <ul>{listItems}</ul>
+  );
 }
+    // var n=Arr.length;
+   
 export default Robots;
